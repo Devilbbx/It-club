@@ -1,0 +1,143 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+}
+
+/* Header styles */
+header {
+    background-color: blueviolet;
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation styles */
+nav {
+    background-color: blueviolet;
+    color: white;
+    padding: 0.5rem;
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 2rem;
+}
+
+main section {
+    margin-bottom: 2rem;
+}
+
+main h2 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+.University {
+    text-align: right; /* Align text (and inline elements) to the right */
+    background-color: blueviolet; /* Add a background color */
+    padding: 20px; /* Add padding around the content */
+  }
+
+  .University img {
+    width: 200px; /* Set the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners to the image */
+    float: right; /* Align the image to the left */
+    margin-right: 20px; /* Add margin to the right of the image for spacing */
+  }
+
+
+
+/* For Read More Button */
+.custom-button {
+    text-align: left;
+    margin-left: 10px;
+    background-color: blueviolet; /* blue voilet background color */
+    border: none; /* Remove border */
+    color: white; /* White text color */
+    padding: 10px 20px; /* Add padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Display as inline block */
+    font-size: 16px; /* Font size */
+    margin: 8px 10px; /* Add margin */
+    cursor: pointer; /* Add cursor on hover */
+    border-radius: 30px; /* Add rounded corners */
+  }
+
+  /* Hover effect */
+  .custom-button:hover {
+    background-color: blue; /* Darker green on hover */
+  }
+
+    /* styles.css to the event greeting section */
+.holi {
+    display: flex; /* Use flexbox */
+    justify-content: flex-end; /* Align content to the end (right side) */
+    background-color: blueviolet; /* Add a background color */
+    padding: 20px; /* Add padding around the content */
+  }
+  
+  .holi img {
+    width: 450; /* Set the width of the image */
+    height: 500; /* Maintain aspect ratio */
+    border-radius: 10px; /* Add rounded corners to the image */
+  }
+  .Blog {
+    text-align: center; 
+    font-size: 35px;
+  }
+  .BlogTitle {
+    color: blueviolet;
+    font-weight: bold;
+  }
+
+  .blogimg {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left; /* Align text and inline elements to the left */
+    background-color: blueviolet; /* Add a background color */
+    padding: 20px;/* Add padding around the content */
+    color: aliceblue;
+  }
+  .blogimg img {
+    width: 450; 
+    height: 500; 
+    border-radius: 10px; /* Add rounded corners to the image */
+    float: left; /* Align the image to the left */
+   
+  }
